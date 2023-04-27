@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    const parede = Number(prompt("insira o tamanho da parede"))
+
+    const tijolo = parede - (parede * 3/100)
+    const tijolo2 = tijolo / (0.19 * 0.19)
+    let al = Math.ceil (tijolo2)
+    document.write("sera necessario " + al + " tijlos" )
+</script>
